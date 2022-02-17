@@ -1,4 +1,4 @@
-import MinComponent from "./components/class12/minComponet";
+import MinComponent from "./components/class13/minComponet";
 import "./App.css";
 
 function App() {
