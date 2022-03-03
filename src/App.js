@@ -1,6 +1,5 @@
-import MinComponent from "./components/class14/minComponet";
+import MinComponent from "./components/class28/minComponent";
 import "./App.css";
-
 function App() {
   return (
     <div className="App">

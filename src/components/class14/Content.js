@@ -43,6 +43,7 @@ import React, { useContext } from "react";
 export default class Content extends React.Component {
   render() {
     const { theme, handelTheme } = this.context;
+    console.log("Content Rander");
     return (
       <Counter>
         {(count, handelCount) => (

@@ -33,12 +33,7 @@ export default class minComponent extends React.Component {
             <ClickCount count={count} handelCount={handelCount} />
           )}
         </Counter>
-        <ThemeContext.Provider
-          value={{
-            theme: this.state.theme,
-            handelTheme: this.state.handelTheme,
-          }}
-        >
+        <ThemeContext.Provider value={this.state}>
           <Section />
         </ThemeContext.Provider>
       </>
